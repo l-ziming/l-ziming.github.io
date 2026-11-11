@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-I am an Associate Researcher in the iGEN lab at Mount Sinai, working on computational approaches to biomedical target discovery through multimodal modeling, perturbational data analysis, and robust machine learning workflows.
+I am an associate researcher in the iGEN lab at Mount Sinai. I work on computational approaches to biomedical target discovery through multimodal modeling and perturbation analysis.
 
-My previous experience includes studying liver vascular biology in the Pradhan-Sundd Lab and an internship at Regenerative Bio stabilizing their molecular graph algorithms. Additionally, my background in epidemiology and biostatistics, where I modeled NHANES data to analyze serum ferritin and cholesterol profiles.
+Previously, I studied liver vascular biology in the Pradhan-Sundd Lab, and during my internship at Regenerative Bio, I contributed to optimizing its molecular graph algorithm. Additionally, my background in epidemiology and biostatistics includes modeling NHANES data to analyze serum ferritin and cholesterol profiles.
