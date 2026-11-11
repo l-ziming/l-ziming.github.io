@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Ziming Li"
+title                    : "Li Ziming"
 title_separator          : "-"
-name                     : &name "Ziming Li"
+name                     : &name "Li Ziming"
 description              : &description "Associate Researcher at Mount Sinai working on computational approaches to biomedical target discovery."
 url                      : https://l-ziming.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository               : "l-ziming/l-ziming.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Ziming Li"
+  name             : "Li Ziming"
   pronouns         : # example: "she/her"  
   bio              : "Computational biology and machine learning"
   location         :

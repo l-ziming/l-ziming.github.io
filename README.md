@@ -1,4 +1,4 @@
-# Ziming Li
+# Li Ziming
 
 Personal academic website: [l-ziming.github.io](https://l-ziming.github.io/).
 
