@@ -5,32 +5,24 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<article class="archive__item">
+  <h2 class="archive__item-title"><a href="https://doi.org/10.3324/haematol.2023.283792">Impaired hemoglobin clearance by sinusoidal endothelium promotes vaso-occlusion and liver injury in sickle cell disease</a></h2>
+  <p>Kaminski TW, Katoch O, <strong>Li Z</strong>, et al.<br>
+  <em>Haematologica.</em> 2024;109(5):1535–1550.</p>
+</article>
 
-{% include base_path %}
+<article class="archive__item">
+  <h2 class="archive__item-title"><a href="https://doi.org/10.3390/biomedicines11092412">Long-Term L-Glutamine Treatment Reduces Hemolysis without Ameliorating Hepatic Vaso-Occlusion and Liver Fibrosis in a Mouse Model of Sickle Cell Disease</a></h2>
+  <p>Katoch O, Ungalara R, Kaminski T, <strong>Li Z</strong>, et al.<br>
+  <em>Biomedicines.</em> 2023;11(9):2412.</p>
+</article>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<article class="archive__item">
+  <h2 class="archive__item-title"><a href="https://doi.org/10.1152/ajpcell.00408.2021">Intravital imaging reveals inflammation as a dominant pathophysiology of age-related hepatovascular changes</a></h2>
+  <p>Vats R*, <strong>Li Z*</strong>, et al.<br>
+  <em>American Journal of Physiology-Cell Physiology.</em> 2022;322(3):C508–C520.<br>
+  <small>* Equal contribution.</small></p>
+</article>
 
 
 
